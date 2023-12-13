@@ -2,6 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Amal's love", page_icon=":tada:", layout="wide")
 
+Password = st.Entry()
 
 st.title("Do you want to learn who is KorAmaaal's crush?")
 
