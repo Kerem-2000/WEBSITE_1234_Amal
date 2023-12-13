@@ -2,13 +2,14 @@ import streamlit as st
 
 st.set_page_config(page_title="Amal's love", page_icon=":tada:", layout="wide")
 
+st.title("Do you want to learn who is KorAmaaal's crush?")
+
 correct_password = "Heisenberg"
 
 password_input = st.text_input("Enter the password:", type="password")
 
 
 if password_input == correct_password:
-    st.title("Do you want to learn who is KorAmaaal's crush?")
 
     button_clicked = st.button("Click to see")
 
@@ -18,5 +19,4 @@ if password_input == correct_password:
 
     if button_clicked:
         reveal_crush()
-else:
-    st.warning("Incorrect password. Please enter the correct password to access the content.")
+
